@@ -37,142 +37,87 @@ console.log(set_number);
 
 // Questions
 const set1 = [
-  'Introduce yourself.',
-  'What are your greatest strengths and weaknesses?',
-  'How do you handle changes or unexpected situations in the workplace?',
-  'What is your biggest achievement so far?',
-  'Tell me about a time when you went above and beyond the call of duty to achieve a goal or deliver results.',
-  'Give me an example of your creativity.'
+  'Are you more analytical or imaginative? Why?',
+  'How do you prioritize your tasks when everything seems important?',
+  'How do you recharge after a busy workday?',
+  'How do you handle conflicts in the workplace?',
+  'Have you ever lost your temper at work? How did you handle it?'
 ]
 
 const set2 = [
-  'Introduce yourself.',
-  'How do you work under pressure? Can you handle the pressure?',
-  'If you won a Rs.10-crore lottery, would you still work?',
-  'What motivates you?',
-  'Can you give an example of a time when you successfully implemented a solution to improve a process or procedure?',
-  'Tell me about a time when you had to step into a role outside of your expertise to support the team\'s objectives.'
+  'What would you do if you were faced with an impossible task / How do you approach solving unfamiliar problems?',
+  'What do you do when you realize you\'ve made a mistake?',
+  'Do you enjoy being the center of attention?',
+  'How do you support a team member who is struggling?',
+  'What\'s your biggest fear professionally, and how do you manage it?'
 ]
 
 const set3 = [
-  'Introduce yourself.',
-  'How do you respond to change?',
-  'What was the toughest decision you ever had to make?',
-  'What is your greatest fear?',
-  'Describe a project where you took the lead in implementing a new strategy or process, driving positive change within your team or organization.',
-  'Describe a situation where you identified a problem before it became significant. What steps did you take to address it?'
+  'Have you ever suggested a new idea or process at work? What was the result?',
+  'What do you think is better - being perfect and delivering late or being good and delivering on time?',
+  'Do you prefer working in a team or alone? Why? / In which scenario are you most productive: working in a team or independently?',
+  'Tell me about a time when you had to compromise.',
+  'How do you respond when your workload suddenly increases?'
 ]
 
 const set4 = [
-  'Introduce yourself.',
-  'How would you rate yourself on a scale of 1 to 10?',
-  'How do you handle stress and anxiety?',
-  'Tell me about a time when you were not satisfied with your performance?',
-  'Can you give an example of a time when you successfully managed multiple competing priorities?',
-  'Where do you see yourself in the next 5 years?'
+  'How do you react to unexpected changes?',
+  'Do you plan your day ahead or work more spontaneously?',
+  'What role do you assume when you work within a team? Are you more of a leader or follower?',
+  'Are you more inclined to speak up or keep the peace in disagreements?',
+  'How do you feel when someone interrupts you while you are in the middle of an important task?'
 ]
 
 const set5 = [
-  'Introduce yourself.',
-  'Why should a company hire you?',
-  'Are you reliable? or Can I trust you with responsibilities?',
-  'What makes you angry?',
-  'Can you give an example of a time when you had to persuade others to adopt your ideas or proposals?',
-  'Can you give an example of a time when you had to take the initiative to solve a problem without being asked?'
+  'What does success mean to you?',
+  'When you were assigned a task outside of your job description. How did you handle the situation? What was the outcome?',
+  'Do you talk to new people at social gatherings or stick with people you know?',
+  'How do you handle negative feedback?',
+  'Do you consider yourself calm in stressful situations / Tell me about a stressful situation at work and how you handled it?'
 ]
 
 const set6 = [
-  'Introduce yourself.',
-  'Are you open to take risks? or Do you like experimenting?',
-  'What is your dream company like?',
-  'Do you have a good work ethic?',
-  'Tell me about a time when you recognized and capitalized on the unique strengths of individual team members to achieve a common goal.',
-  'Tell me about a time when you successfully resolved a long-standing issue that had been impeding progress within your team or organization.'
+  'Do you enjoy routine or do you prefer variety in your tasks? Why?',
+  'How do you manage work-life balance?',
+  'Tell me what motivates you to succeed in your career?',
+  'What do you do if you disagree with another team member?',
+  'If you could change one thing about your personality, what would it be?'
 ]
 
 const set7 = [
-  'Introduce yourself.',
-  'How do you improve your knowledge?',
-  'What are your hobbies?',
-  'Can you give an example of a time when you led by example to promote a positive work culture or values?',
-  'Describe a project where you encouraged open communication and feedback among team members, leading to improved collaboration and outcomes.',
-  'Is there anything that makes you different from other candidates?'
+  'Have you ever suggested a new idea or process at work? What was the result?',
+  'What have you learned from your mistakes?',
+  'How do you contribute to a team environment?',
+  'How do you navigate through office politics and maintain your integrity?',
+  'How do you cope with failure or setbacks?'
 ]
 
 const set8 = [
-  'Introduce yourself.',
-  'Can you describe your time management skills?',
-  'Can you describe a situation where you had to overcome a significant challenge in a team setting?',
-  'What do you do to ensure that your task is completed effectively?',
-  'Can you give an example of a time when you demonstrated leadership skills?',
-  'What are the three things that are most important for you in a job?'
+  'What\'s the last book, film, or experience that changed your perspective?',
+  'How do you keep yourself organized at work?',
+  'What role do you usually take in group situations?',
+  'Describe a time you helped a colleague without being asked.',
+  'Have you ever felt frustrated due to a lack of career progress?'
 ]
 
 const set9 = [
-  'Introduce yourself.',
-  'Are you open to take risks? or Do you like experimenting?',
-  'How did you handle disagreements?',
-  'Tell me about a time where you experienced difficulty while working on a project, how did you handle it?',
-  'What makes you happy?',
-  'Can you give an example of a situation where you mentored a junior colleague, helping them grow professionally and personally?'
+  'What do you do with your free time when you have no plans?',
+  'Consider the scenario: You win a million-dollar lottery. Would you still be working?',
+  'How do you initiate collaboration with colleagues?',
+  'Describe your values / To what extent are your values aligned with our company culture?',
+  'How do you react to unexpected changes?'
 ]
 
 const set10 = [
-  'Introduce yourself.',
-  'What are you passionate about?',
-  'What motivates you to perform at your best in the workplace?',
-  'Describe a time when you proactively sought out opportunities to develop new skills or knowledge relevant to your role.',
-  'Can you give an example of a situation where you leveraged technology or automation to streamline a process and increase efficiency?',
-  'Share a story of a project where you collaborated with a cross-functional team to deliver exceptional results.'
-]
-
-const set11 = [
-  'Introduce yourself.',
-  'Describe a situation where you had to adapt to a change in the work environment.',
-  'What are you most proud of?',
-  'What do you think is an ideal work environment?',
-  'Tell me about a project you initiated or led that had a positive impact on your team or organization.',
-  'Can you give an example of a time when you had to resolve a disagreement or misunderstanding within a team?'
-]
-
-const set12 = [
-  'Introduce yourself.',
-  'How do you deal with criticism?',
-  'Tell me about a time when you failed to meet a goal or objective. How did you handle it?',
-  'What has been your greatest failure?',
-  'Tell me about a time when you had to resolve a conflict with a coworker or team member.',
-  'Share a story of a project where you led the team in developing and implementing a solution that resulted in significant cost savings or revenue growth.'
-]
-
-const set13 = [
-  'Introduce yourself.',
-  'Tell me about a time when you had to work on a project outside of your comfort zone. How did you handle it?',
-  'Are you an organized person?',
-  'What do you always regret? Or Do you have any regrets?',
-  'Share a story of how you took ownership of a project that was struggling and turned it into a success through your initiative.',
-  'Can you give an example of a situation where you successfully motivated a disengaged team member to contribute effectively to a project?'
-]
-
-const set14 = [
-  'Introduce yourself.',
-  'How do you learn new skills?',
-  'Describe a situation where you had to prioritize tasks under tight deadlines.',
-  'How quickly do you adapt to new technology?',
-  'Can you give an example of a time when you facilitated a productive team meeting or discussion?',
-  'Describe a project where you collaborated with stakeholders to define the problem and develop a solution that met everyone\'s needs.'
-]
-
-const set15 = [
-  'Introduce yourself.',
-  'What is your dream job like?',
-  'What are your weaknesses?',
-  'Tell me about a time when you proposed an innovative idea that significantly improved team efficiency or productivity.',
-  'Can you give an example of a time when you coached or mentored a colleague to help them achieve their goals?',
-  'Share a story of a time when you rallied your team during a crisis, fostering resilience and determination.'
+  'What do you think is the most significant issue society is currently facing?',
+  'Your manager asks you to work on the weekend. How does it make you feel?',
+  'How do you define success?',
+  'Does your current team consider you an approachable person?',
+  'How do you maintain emotional balance in tough times?'
 ]
 
 
-const questions = [set1, set2, set3, set4, set5, set6, set7, set8, set9, set10, set11, set12, set13, set14, set15];
+const questions = [set1, set2, set3, set4, set5, set6, set7, set8, set9, set10];
 
 // update question
 question.textContent = questions[set_number][counter];

@@ -1,4 +1,4 @@
-# QAVideoShare
+# OCEAN-Interview-VRec
 A Google drive and database backed interview website with similar functionality to HireVue. Record user's video answer for a set of questions and upload the video answers to a custom folder on Google Drive as well as store users' info in a database with their custom drive folder's link.
 
 - Take info such as name, unique ID, email, phone and consent and store it to database with data and time
@@ -11,3 +11,5 @@ A Google drive and database backed interview website with similar functionality 
 - The video are saved in a folder created using name entered during login
 - Over answering all questions in set, exit to final webpage
 - Multiple different exceptions covered
+
+NOTE: This project is forked from [QAVideoShare](https://github.com/Phantom-fs/QAVideoShare) and is a part of research project at Manipal University Jaipur. The original project was created by [Phantom-fs (Farhan Sheth)](https://github.com/Phantom-fs).

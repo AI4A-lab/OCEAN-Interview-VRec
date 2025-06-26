@@ -6,15 +6,21 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var reg = document.getElementById("reg").value;
     var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
+    var questionSet = document.getElementById("questionSet").value;
     var consentCheckbox = document.getElementById("consentCheckbox").checked;
 
-    console.log(name, reg, email, phone, consentCheckbox);
+    console.log(name, reg, email, phone, questionSet, consentCheckbox);
 
     // Clear the counter from localStorage
     localStorage.removeItem('counter');
 
     if (!consentCheckbox) {
         alert('Please agree to the consent form.');
+        return;
+    }
+
+    if (!questionSet) {
+        alert('Please select a question set.');
         return;
     }
 
@@ -41,14 +47,14 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
     console.log(date_curr, time);
 
-    // random number between 0 to 15, exclusive
-    var randomNumber = Math.floor(Math.random() * 15);
+    // Use selected question set instead of random number
+    var selectedSet = parseInt(questionSet);
 
     const url = 'https://interview-hirevue-ae9c2f5fd450.herokuapp.com/database';
 
     fetch(url, {
         method: 'POST',
-        body: JSON.stringify({ 'name': name, 'id': reg, 'email': email, 'phone': phone, 'date': date_curr, 'time': time, 'set': randomNumber }),
+        body: JSON.stringify({ 'name': name, 'id': reg, 'email': email, 'phone': phone, 'date': date_curr, 'time': time, 'set': selectedSet }),
         headers: {
             'Content-Type': 'application/json'
         }
@@ -58,7 +64,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         if (data.message == "success") {
             // generated folder's id
             id = data.folder_id;
-            window.location.href = `record.html?id=${id}&set_number=${randomNumber}`;
+            window.location.href = `record.html?id=${id}&set_number=${selectedSet}`;
         } else {
             alert('Error: ' + data.message);
             submitButton.disabled = false; // Re-enable the submit button on error
